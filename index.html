@@ -1,13 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Picksy Legal</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0B0B0F;
+      color: #f0f0f0;
+      font-family: Georgia, serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container { text-align: center; padding: 48px 24px; }
+    h1 { font-size: 2rem; font-weight: 400; letter-spacing: 0.04em; margin-bottom: 8px; color: #fff; }
+    p { color: #888; font-size: 0.95rem; margin-bottom: 48px; }
+    .links { display: flex; flex-direction: column; gap: 16px; align-items: center; }
+    a { color: #a78bfa; text-decoration: none; font-size: 1.1rem; border-bottom: 1px solid rgba(167,139,250,0.3); padding-bottom: 2px; transition: color 0.2s; }
+    a:hover { color: #c4b5fd; }
+  </style>
 </head>
 <body>
-  <h1>Picksy Legal Pages</h1>
-
-  <a href="/privacy.html">Privacy Policy</a>
-  <br><br>
-  <a href="/terms.html">Terms of Service</a>
+  <div class="container">
+    <h1>Picksy</h1>
+    <p>Legal Documents</p>
+    <div class="links">
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms of Service</a>
+    </div>
+  </div>
 </body>
 </html>
